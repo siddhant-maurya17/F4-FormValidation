@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,400&family=Poppins:wght@300;400&family=Varela+Round&display=swap');
+*{
+  background-color: black;
+  color:white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.form-label{
+  position: absolute;
+  font-size: 20px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+}
+.form-label div input{
+  border:none;
+  width:80vw;
+  border-bottom:1px solid #fff;
+  margin-top: 2rem;
+  outline: none;
+}
+
+.btn{
+  color:black;
+  background-color: #fff;
+  margin-top: 2rem;
+  padding: 5px 22px;
+}
+.error{
+  color:red;
+}
+.success{
+  color:green;
+}
